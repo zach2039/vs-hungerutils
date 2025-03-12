@@ -57,8 +57,8 @@ namespace HungerUtils.ModCommands
 
         private static TextCommandResult OnHungerUtilsCommand(ICoreServerAPI api, TextCommandCallingArgs args)
         {
-            string hungerUtilAttribute = args[0] as string;
-            string playerName = args[1] as string;
+            string playerName = args[0] as string;
+            string hungerUtilAttribute = args[1] as string;
             float setValue = (float)args[2];
 
             IServerPlayer targetPlayer;

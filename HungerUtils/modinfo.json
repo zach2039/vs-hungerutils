@@ -1,13 +1,14 @@
 {
     "type": "code",
-    "modid": "mymodid",
-    "name": "My Template Mod",
+    "modid": "hungerutils",
+    "name": "Hunger Utils",
     "authors": [
-        "Unknown"
+      "Zach2039",
+      "Chrono"
     ],
-    "description": "To be added",
+    "description": "Adds server commands that can be used to debug hunger and satiety for players.",
     "version": "1.0.0",
     "dependencies": {
-        "game": ""
+        "game": "*"
     }
 }
