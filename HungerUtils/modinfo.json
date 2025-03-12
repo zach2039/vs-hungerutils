@@ -1,14 +1,17 @@
 {
-    "type": "code",
-    "modid": "hungerutils",
-    "name": "Hunger Utils",
-    "authors": [
-      "Zach2039",
-      "Chrono"
-    ],
-    "description": "Adds server commands that can be used to debug hunger and satiety for players.",
-    "version": "1.0.0",
-    "dependencies": {
-        "game": "*"
-    }
+  "type": "code",
+  "modid": "hungerutils",
+  "name": "Hunger Utils",
+  "authors": [
+    "Zach2039",
+    "Chrono"
+  ],
+  "description": "Adds server commands that can be used to debug hunger and satiety for players.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "*"
+  },
+  "Side": "Server",
+  "RequiredOnClient": false,
+  "RequiredOnServer": true
 }
